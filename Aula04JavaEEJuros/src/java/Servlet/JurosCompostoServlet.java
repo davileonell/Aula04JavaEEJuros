@@ -54,11 +54,11 @@ public class JurosCompostoServlet extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet JuroSimplesServlet</title>");            
+            out.println("<title>Servlet JuroCompostoServlet</title>");            
             out.println("</head>");
             out.println("<body>");
             out.println("<div><a href='index.html'>Voltar</a></div>");
-            out.println("<h1>Juros Simples</h1>");
+            out.println("<h1>Juros Composto</h1>");
             
             if(error != null){
              out.println("<span style = 'color: red'>Erro ao tentar ler parametros</span>");
